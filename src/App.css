@@ -1,0 +1,67 @@
+.home-page {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  overflow: hidden;
+  /* position: relative;  */
+}
+
+.createRoom {
+  background-color: #282c34;
+  min-height: 100vh;  
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;  
+  overflow: hidden;
+  flex-direction: column;  
+  /* position: relative;  */
+}
+.random-text{
+  padding: 3vmin;
+  color: white;
+  font-size: calc(10px + 10vmin);
+  font-weight: bold;
+  position: absolute;
+
+}
+
+.roomtitle{
+  padding: 3vmin;
+  color: white;
+  font-size: calc(10px + 10vmin);
+  font-weight: bold;
+  margin-top: 10%;
+
+}
+  /* margin: 10% 0 0 40%;
+} */
+.otherText{
+  color: white;
+}
+
+.emogun{
+  padding: 1vmin;
+  font-size: calc(10px + 4vmin);
+  font-weight: bold;
+  position: absolute;
+
+}
+
+.buttons{
+  position: absolute;
+  margin: 30% 0 0 40%;
+}
+
+.homeButton{
+  padding: 10px 10px 10px 10px; 
+}
+
+
+@keyframes rotateText {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
